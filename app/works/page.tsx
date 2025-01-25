@@ -27,7 +27,7 @@ const Works = () => {
     <div className='worksContainer gap-5 mx-6 lg:mx-60 h-full'>
 
         <div className='flex flex-col items-center md:mt-6 text-center'>
-           <motion.h1 initial={{x:-150,opacity:0}} animate={{x:0,opacity:1,transition:{delay:0.8}}} className='font-extralight text-6xl md:text-8xl'><marquee scrolldelay="200" scrollamount="30" direction="left">My Projects</marquee></motion.h1>
+           <motion.h1 initial={{x:-150,opacity:0}} animate={{x:0,opacity:1,transition:{delay:0.8}}} className='font-extralight text-6xl md:text-8xl'>My Projects</motion.h1>
            <motion.div initial={{scale:0}} animate={{scale:1,transition:{delay:1}}} className='relative z-10'>
             <svg viewBox='0 0 300 300' className='w-72 h-72 animate-spin-slow'>
                 <defs>
