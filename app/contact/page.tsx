@@ -24,15 +24,7 @@ const ContactPage: React.FC = () => {
         formRef.current,
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || "default_public_key"
       )
-      .then(
-        () => {
-          setSuccess(true);
-          formRef.current.reset();
-        },
-        () => {
-          setError(true);
-        }
-      );
+      
   };
 
   return (
